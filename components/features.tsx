@@ -6,9 +6,9 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Experience</h2>
-            <p className="text-xxl text-gray-400">Intelligent Project Management | Team Communication | Documentation | Finances</p>
-            <h2 className="h2 mb-4">in a single streamlined platform</h2>
+            <h2 className="h2 mb-4">Experience A Platform</h2>
+            {/* <p className="text-xxl text-gray-400">a platform </p> */}
+            <h2 className="h2 mb-4">Engineered for Startup Success</h2>
           </div>
 
           {/* Items */}
@@ -21,8 +21,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Intelligent Project Management</h4>
+              <p className="text-lg text-gray-400 text-center">Orro leverages AI to automate project management. It accurately estimates task durations, auto-generates sheets and charts for sprint reviews, and provides comprehensive project estimates based on progress.</p>
             </div>
 
             {/* 2nd item */}
@@ -32,8 +32,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Unified Communication</h4>
+              <p className="text-lg text-gray-400 text-center">Orro serves as a central hub for all team communication, supporting group and individual chats. It also syncs with popular video conferencing platforms like Zoom and Google Meet for a seamless communication experience.</p>
             </div>
 
             {/* 3rd item */}
@@ -46,8 +46,8 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Simplified Financial Management</h4>
+              <p className="text-lg text-gray-400 text-center">Orro eases the financial management process by integrating expense sheets, business invoices, contractor invoices, and even crypto payments. It allows expenses to be directly linked to tasks, and employees to attach receipts to tasks for instant payment.</p>
             </div>
 
             {/* 4th item */}
@@ -59,9 +59,10 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Seamless Collaboration</h4>
+              <p className="text-lg text-gray-400 text-center">Orro enables easy collaboration with contractors, clients, and partners. Its intuitive interface allows external collaborators to swiftly join projects, share and assign tasks, and manage invoices and payments, ensuring everyone remains aligned.</p>
             </div>
+
 
             {/* 5th item */}
             <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
@@ -72,8 +73,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Efficient Documentation</h4>
+              <p className="text-lg text-gray-400 text-center">Orro offers a robust platform for both technical and product documentation, simplifying the storage and sharing of crucial information.</p>
             </div>
 
             {/* 6th item */}
@@ -86,8 +87,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Instant Features</h4>
-              <p className="text-lg text-gray-400 text-center">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
+              <h4 className="h4 mb-2 text-center">Security and Privacy</h4>
+              <p className="text-lg text-gray-400 text-center">Orro places utmost importance on user security and privacy. It uses cutting-edge encryption technologies to safeguard all data and communication within the platform. It also provides users with the flexibility to customize their privacy settings according to their comfort.</p>
             </div>
 
           </div>
