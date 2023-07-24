@@ -103,25 +103,25 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
                   <h3 className="h3 mb-3">Finances at your fingertips</h3>
-                  <p className="text-xl text-gray-400 mb-4">Financial management is as <b>crucial</b> to founders as any other task. Orro integrates this aspect into the platform, making it easy for founders to manage finances alongside other tasks.</p>
+                  <p className="text-xl text-gray-400 mb-4">Financial management is as <b>crucial</b> to founders as any other task. Orro integrates this aspect into the platform, making it easy for founders to manage finances alongside their work.</p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Duis aute irure dolor in reprehenderit</span>
+                      <span>Get weekly, biweekly and monthly reports on progress made by the team as a function of the cash burn during that period</span>
                     </li>
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Excepteur sint occaecat</span>
+                      <span>Team members attach their expense receipts and receive updates when it gets paid</span>
                     </li>
                     <li className="flex items-center">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Amet consectetur adipiscing elit</span>
+                      <span>Manage company finances as effectively as your daily tasks</span>
                     </li>
                   </ul>
                 </div>
