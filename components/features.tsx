@@ -32,7 +32,7 @@ export default function Features() {
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2 text-center">Unified Communication</h4>
+              <h4 className="h4 mb-2 text-center">Unified Communication Across Company</h4>
               <p className="text-lg text-gray-400 text-center">Orro serves as a central hub for all team communication, supporting group and individual chats. It also syncs with popular video conferencing platforms like Zoom and Google Meet for a seamless communication experience.</p>
             </div>
 
