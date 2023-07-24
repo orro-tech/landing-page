@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'ORRO - The one team platform for startups',
+  description: 'All-inclusive productivity and team collaboration solution, meticulously crafted for founders',
 }
 
 import Hero from '@/components/hero'
