@@ -283,8 +283,7 @@ export default function Features() {
               <p className="text-lg text-gray-400 text-center">
                 Orro uses Non-Fungible Tokens (NFTs) to manage assets, adding an
                 extra layer of security. We also employ advanced cryptographic
-                techniques, smart contracts, and decentralized finance (DeFi)
-                protocols to ensure a seamless and secure user experience.
+                techniques and smart contracts to provide the best UX.
               </p>
             </div>
           </div>
