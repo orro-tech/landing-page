@@ -3,98 +3,293 @@ export default function Features() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
-
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4" id="about">Experience A Platform</h2>
+            <h2 className="h2 mb-4" id="about">
+              Join our movement towards a more inclusive and equitable financial
+              future
+            </h2>
             {/* <p className="text-xxl text-gray-400">a platform </p> */}
-            <h2 className="h2 mb-4">Engineered for Startup Success</h2>
+            {/* <h2 className="h2 mb-4">No matter where you are</h2> */}
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
-
+          <div
+            className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
+            data-aos-id-blocks
+          >
             {/* 1st item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className="fill-current text-purple-600"
+                  width="64"
+                  height="64"
+                  rx="32"
+                />
+                <path
+                  className="stroke-current text-purple-100"
+                  d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924"
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                  fill="none"
+                  fillRule="evenodd"
+                />
+                <path
+                  className="stroke-current text-purple-300"
+                  d="M43 42h-9M43 37h-9"
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                />
               </svg>
-              <h4 className="h4 mb-2 text-center">Intelligent Project Management</h4>
-              <p className="text-lg text-gray-400 text-center">Orro leverages AI to automate project management. It accurately estimates task durations, auto-generates sheets and charts for sprint reviews, and provides comprehensive project estimates based on progress.</p>
+              <h4 className="h4 mb-2 text-center">Fractional Ownership</h4>
+              <p className="text-lg text-gray-400 text-center">
+                With Orro, you can own a fraction of high-value assets like real
+                estate, precious metals, and more. No need for huge capital -
+                start investing with what you have.
+              </p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
-                <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
-                <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  className="fill-current text-purple-600"
+                  cx="32"
+                  cy="32"
+                  r="32"
+                />
+                <path
+                  className="stroke-current text-purple-100"
+                  strokeWidth="2"
+                  strokeLinecap="square"
+                  d="M21 23h22v18H21z"
+                  fill="none"
+                  fillRule="evenodd"
+                />
+                <path
+                  className="stroke-current text-purple-300"
+                  d="M26 28h12M26 32h12M26 36h5"
+                  strokeWidth="2"
+                  strokeLinecap="square"
+                />
               </svg>
-              <h4 className="h4 mb-2 text-center">Unified Communication Across Company</h4>
-              <p className="text-lg text-gray-400 text-center">Orro serves as a central hub for all team communication, supporting group and individual chats. It also syncs with popular video conferencing platforms like Zoom and Google Meet for a seamless communication experience.</p>
+              <h4 className="h4 mb-2 text-center">Sheriah Compliant</h4>
+              <p className="text-lg text-gray-400 text-center">
+                We strictly adhere to Sheriah law in all our operations,
+                offering a reliable and ethical investment platform for our
+                users.
+              </p>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <ellipse className="stroke-current text-purple-300" cx="11" cy="11" rx="5.5" ry="11" />
-                  <path className="stroke-current text-purple-100" d="M11 0v22M0 11h22" />
-                  <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className="fill-current text-purple-600"
+                  width="64"
+                  height="64"
+                  rx="32"
+                />
+                <g
+                  transform="translate(21 21)"
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                  fill="none"
+                  fillRule="evenodd"
+                >
+                  <ellipse
+                    className="stroke-current text-purple-300"
+                    cx="11"
+                    cy="11"
+                    rx="5.5"
+                    ry="11"
+                  />
+                  <path
+                    className="stroke-current text-purple-100"
+                    d="M11 0v22M0 11h22"
+                  />
+                  <circle
+                    className="stroke-current text-purple-100"
+                    cx="11"
+                    cy="11"
+                    r="11"
+                  />
                 </g>
               </svg>
-              <h4 className="h4 mb-2 text-center">Simplified Financial Management</h4>
-              <p className="text-lg text-gray-400 text-center">Orro eases the financial management process by integrating expense sheets, business invoices, contractor invoices, and even crypto payments. It allows expenses to be directly linked to tasks, and employees to attach receipts to tasks for instant payment.</p>
+              <h4 className="h4 mb-2 text-center">Seamless User Interface </h4>
+              <p className="text-lg text-gray-400 text-center">
+                Our intuitive interface lets you manage your entire portfolio
+                with ease. Trade, monitor, and grow your investments all in one
+                place.
+              </p>
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5" />
-                  <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className="fill-current text-purple-600"
+                  width="64"
+                  height="64"
+                  rx="32"
+                />
+                <g
+                  transform="translate(22 21)"
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                  fill="none"
+                  fillRule="evenodd"
+                >
+                  <path
+                    className="stroke-current text-purple-100"
+                    d="M17 22v-6.3a8.97 8.97 0 003-6.569A9.1 9.1 0 0011.262 0 9 9 0 002 9v1l-2 5 2 1v4a2 2 0 002 2h4a5 5 0 005-5v-5"
+                  />
+                  <circle
+                    className="stroke-current text-purple-300"
+                    cx="13"
+                    cy="9"
+                    r="3"
+                  />
                 </g>
               </svg>
-              <h4 className="h4 mb-2 text-center">Seamless Collaboration</h4>
-              <p className="text-lg text-gray-400 text-center">Orro enables easy collaboration with contractors, clients, and partners. Its intuitive interface allows external collaborators to swiftly join projects, share and assign tasks, and manage invoices and payments, ensuring everyone remains aligned.</p>
+              <h4 className="h4 mb-2 text-center">Global Marketplace</h4>
+              <p className="text-lg text-gray-400 text-center">
+                Trade on our global marketplace with investors around the world.
+                Discover new opportunities, diversify your portfolio, and expand
+                your financial horizons.
+              </p>
             </div>
 
-
             {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-100" d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6" />
-                  <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="400"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className="fill-current text-purple-600"
+                  width="64"
+                  height="64"
+                  rx="32"
+                />
+                <g
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                  fill="none"
+                  fillRule="evenodd"
+                >
+                  <path
+                    className="stroke-current text-purple-100"
+                    d="M29 42h10.229a2 2 0 001.912-1.412l2.769-9A2 2 0 0042 29h-7v-4c0-2.373-1.251-3.494-2.764-3.86a1.006 1.006 0 00-1.236.979V26l-5 6"
+                  />
+                  <path
+                    className="stroke-current text-purple-300"
+                    d="M22 30h4v12h-4z"
+                  />
                 </g>
               </svg>
-              <h4 className="h4 mb-2 text-center">Efficient Documentation</h4>
-              <p className="text-lg text-gray-400 text-center">Orro offers a robust platform for both technical and product documentation, simplifying the storage and sharing of crucial information.</p>
+              <h4 className="h4 mb-2 text-center">Secure & Transparent</h4>
+              <p className="text-lg text-gray-400 text-center">
+                Built on the Haqq blockchain network, Orro ensures maximum
+                security transparency. Every transaction is recorded on the
+                blockchain, eliminating of fraud.
+              </p>
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
-              <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
-                <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
-                  <path className="stroke-current text-purple-300" d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415" />
-                  <circle className="stroke-current text-purple-300" cx="17" cy="5" r="3" />
-                  <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
+            <div
+              className="relative flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="500"
+              data-aos-anchor="[data-aos-id-blocks]"
+            >
+              <svg
+                className="w-16 h-16 mb-4"
+                viewBox="0 0 64 64"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  className="fill-current text-purple-600"
+                  width="64"
+                  height="64"
+                  rx="32"
+                />
+                <g
+                  transform="translate(21 22)"
+                  strokeLinecap="square"
+                  strokeWidth="2"
+                  fill="none"
+                  fillRule="evenodd"
+                >
+                  <path
+                    className="stroke-current text-purple-300"
+                    d="M17 2V0M19.121 2.879l1.415-1.415M20 5h2M19.121 7.121l1.415 1.415M17 8v2M14.879 7.121l-1.415 1.415M14 5h-2M14.879 2.879l-1.415-1.415"
+                  />
+                  <circle
+                    className="stroke-current text-purple-300"
+                    cx="17"
+                    cy="5"
+                    r="3"
+                  />
+                  <path
+                    className="stroke-current text-purple-100"
+                    d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948"
+                  />
                 </g>
               </svg>
-              <h4 className="h4 mb-2 text-center">Security and Privacy</h4>
-              <p className="text-lg text-gray-400 text-center">Orro places utmost importance on user security and privacy. It uses cutting-edge encryption technologies to safeguard all data and communication within the platform. It also provides users with the flexibility to customize their privacy settings according to their comfort.</p>
+              <h4 className="h4 mb-2 text-center">Technologically Advanced</h4>
+              <p className="text-lg text-gray-400 text-center">
+                Orro uses Non-Fungible Tokens (NFTs) to manage assets, adding an
+                extra layer of security. We also employ advanced cryptographic
+                techniques, smart contracts, and decentralized finance (DeFi)
+                protocols to ensure a seamless and secure user experience.
+              </p>
             </div>
-
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }
